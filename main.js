@@ -262,7 +262,7 @@ function d20RollFunction(){
 
 function findMean6(mean){
     let total = 0;
-    for(let i = 0; i < mean.leangth; i++){
+    for(let i = 0; i < mean.length; i++){
         total += mean[i]
     }
     total = total/mean.length;
@@ -274,7 +274,7 @@ function findMean6(mean){
 
 function findMeanDD6(mean){
     let total = 0;
-    for(let i = 0; i < mean.leangth; i++){
+    for(let i = 0; i < mean.length; i++){
         total += mean[i]
     }
     total = total/mean.length;
@@ -286,7 +286,7 @@ function findMeanDD6(mean){
 
 function findMean12(mean){
     let total = 0;
-    for(let i = 0; i < mean.leangth; i++){
+    for(let i = 0; i < mean.length; i++){
         total += mean[i]
     }
     total = total/mean.length;
@@ -298,7 +298,7 @@ function findMean12(mean){
 
 function findMean20(mean){
     let total = 0;
-    for(let i = 0; i < mean.leangth; i++){
+    for(let i = 0; i < mean.length; i++){
         total += mean[i]
     }
     total = total/mean.length;
